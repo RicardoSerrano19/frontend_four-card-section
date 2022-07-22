@@ -29,3 +29,34 @@ body{
     align-items: center;
     margin: 1rem 0;
 }
+
+main{
+    display: flex;
+    width: 80%;
+}
+
+/* header */
+.header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.header__top{
+    font-size: 2rem;
+    color: var(--very-dark-blue);
+    font-weight: 400;
+}
+
+.header__bottom{
+    font-size: 2rem;
+    color: var(--very-dark-blue);
+    font-weight: 600;
+}
+
+.header__info{
+    font-size: 1.1rem;
+    color: var(--very-dark-blue);
+    font-weight: 200;
+    margin: 1.5rem 0;
+}
