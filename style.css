@@ -28,6 +28,7 @@ body{
     justify-content: center;
     align-items: center;
     margin: 1rem 0;
+    background-color: var(--very-light-gray);
 }
 
 main{
